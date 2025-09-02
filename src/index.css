@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Archer-Book-pro';
+  src: url(/public/tipografia/Archer-Book-Pro.otf);
+}
+
+@font-face {
+  font-family: 'Hagins-Caps';
+  src: url(/public/tipografia/Hagin-Caps-Medium.otf);
+}
+
+h1 {
+  font-family: 'Hagins-Caps';
+  text-align: center;
+  color: #54351a;
+}
+
+h2 {
+  font-family: 'Hagins-Caps';
+  text-align: center;
+  color: #54351a;
+}
+
+.video video {
+  display: block;
+  width: 100%;
+  height: 50%;
+}
+
+:root {
+  --principal: #54351a;
+  --fuente-titulo: 'Hagin-Caps', sans-serif;
+  --fuente-texto: 'Archer-Book-Pro', sans-serif;
+}
+
+body {
+  font-family: var(--fuente-texto);
+  background: #eae3d7;
+  color: var(--principal);
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-weight: normal;
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-weight: normal;
+  font-family: 'Archer-Book-Pro';
+}
+
+.redes {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.redsocial {
+  text-decoration: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  padding: 10px 5px 5px 2px;
+}
+
+.redsocial:hover {
+  text-decoration: none;
+  border: none;
+  width: 39px;
+  height: 39px;
+}
