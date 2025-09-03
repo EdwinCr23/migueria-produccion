@@ -9,11 +9,11 @@ const Desarrollo = () => {
                     <CardMedia />
                 </CardActionArea>
                 <CardContent>
-                    <Typography></Typography>
-                    <Typography></Typography>
+                    <Typography>Desarrollo</Typography>
+                    <Typography>Este es el módulo de Desarrollo</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button></Button>
+                    <Button><Link>Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>

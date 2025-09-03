@@ -3,17 +3,23 @@ import { Link } from "react-router-dom"
 
 const Servicio = () => {
     return (
-        <div>
-            <Card>
+        <div style={{ padding: 10 }}>
+            <Card sx={{ width: 200, height: 300, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                 <CardActionArea>
-                    <CardMedia />
+                    <CardMedia
+                        component="img"
+                        height="140"
+                        image="src\assets\images\IMG_1765.jpg"
+                        alt="logo"
+                        sx={{ width: '100%', margin: 'auto', padding: 'auto' }}
+                    />
                 </CardActionArea>
                 <CardContent>
-                    <Typography></Typography>
-                    <Typography></Typography>
+                    <Typography gutterBottom variant="h5" component="div" sx={{}}>Servicio</Typography>
+                    <Typography>Este es el módulo de Servicio</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button></Button>
+                    <Button><Link>Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>

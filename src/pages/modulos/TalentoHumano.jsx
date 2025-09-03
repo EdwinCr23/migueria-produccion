@@ -9,11 +9,11 @@ const TalentoHumano = () => {
                     <CardMedia />
                 </CardActionArea>
                 <CardContent>
-                    <Typography></Typography>
-                    <Typography></Typography>
+                    <Typography>Talento Humano</Typography>
+                    <Typography>Este es el módulo de Talento Humano</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button></Button>
+                    <Button><Link>Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>

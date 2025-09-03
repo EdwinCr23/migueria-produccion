@@ -9,11 +9,11 @@ const Induccion = () => {
                     <CardMedia />
                 </CardActionArea>
                 <CardContent>
-                    <Typography></Typography>
-                    <Typography></Typography>
+                    <Typography>Inducción</Typography>
+                    <Typography>Este es el módulo de Inducción</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button></Button>
+                    <Button><Link>Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>
