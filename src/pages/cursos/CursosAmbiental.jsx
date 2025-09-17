@@ -33,16 +33,22 @@ const CursosAmbiental = () => {
                     </Card>
                 </div>
                 <div style={{ padding: 10 }}>
-                    <Card sx={{ width: 200, height: 300 }}>
+                    <Card sx={{ width: 200, height: 350, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                         <CardActionArea>
-                            <CardMedia />
+                            <CardMedia
+                                component="img"
+                                height="140"
+                                image="src\assets\images\IMG_1765.jpg"
+                                alt="ambiental-logo"
+                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                            />
                         </CardActionArea>
                         <CardContent>
-                            <Typography>Gestión Ambiental</Typography>
-                            <Typography></Typography>
+                            <Typography gutterBottom variant="h5" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Gestión Ambiental</Typography>
+                            <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Archer Book Pro' }}>Es un proceso que está orientado a resolver los problemas ambientales</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button></Button>
+                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'hagin Caps' }} to="https://elmiguerito.com/escuela/course/view.php?id=4" target="blank">Realizar</Link></Button>
                         </CardActions>
                     </Card>
                 </div>
