@@ -19,7 +19,7 @@ const Ambiental = () => {
                     <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Este es el módulo de ambiental</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', borderRadius: 3, border: '1px solid #54351a' }}><Link style={{ textDecoration: 'none', background: '#eae3d7', fontFamily: 'Hagin Caps', color: '#54351a' }}>Ver más</Link></Button>
+                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', borderRadius: 3, border: '1px solid #54351a' }}><Link style={{ textDecoration: 'none', background: '#eae3d7', fontFamily: 'Hagin Caps', color: '#54351a' }} to='/ambiental-cursos'>Ver más</Link></Button>
                 </CardActions>
             </Card>
 

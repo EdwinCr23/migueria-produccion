@@ -15,11 +15,13 @@ const Servicio = () => {
                     />
                 </CardActionArea>
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" sx={{}}>Servicio</Typography>
-                    <Typography>Este es el módulo de Servicio</Typography>
+                    <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Servicio</Typography>
+                    <Typography variant="body2" sx={{
+                        textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps'
+                    }}>Este es el módulo de Servicio</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button><Link>Ver más</Link></Button>
+                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagin Caps' }}>Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>
