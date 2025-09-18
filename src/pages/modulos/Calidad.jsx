@@ -23,7 +23,7 @@ const Calidad = () => {
                     <Button size='small' sx={{
                         width: '90%', padding: 'auto', margin: 'auto', borderRadius: 3,
                         border: '1px solid #54351a'
-                    }}><Link style={{ textDecoration: 'none', background: '#eae3d7', fontFamily: 'Hagin Caps', color: '#54351a' }}>Ver más</Link></Button>
+                    }}><Link style={{ textDecoration: 'none', background: '#eae3d7', fontFamily: 'Hagin Caps', color: '#54351a' }} to='/calidad-cursos'>Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>
