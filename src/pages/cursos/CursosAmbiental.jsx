@@ -11,7 +11,7 @@ const CursosAmbiental = () => {
                 <h1>Bievenidos al módulo ambiental</h1>
                 <h2>Cursos</h2>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div className="cursos" style={{ display: 'flex', justifyContent: 'center' }}>
                 <div style={{ padding: 10 }}>
                     <Card sx={{ width: 200, height: 350, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                         <CardActionArea>
