@@ -16,7 +16,7 @@ import TalentoHumanoCursos from './pages/cursos/TalentoHumanoCursos.jsx'
 
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='/miproyecto'>
+  <BrowserRouter basename='/'>
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/escuela' element={<School />} />

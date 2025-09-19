@@ -3,7 +3,7 @@ import React from 'react'
 const DesarrolloCursos = () => {
     return (
         <div>
-            Desarrollo Cursos
+            <h1>Bienvenidos al módulo de Desarrollo</h1>
         </div>
     )
 }

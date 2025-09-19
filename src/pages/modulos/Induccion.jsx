@@ -19,7 +19,7 @@ const Induccion = () => {
                     <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Este es el módulo de Inducción</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', fontFamily: 'Hagin Caps', color: '#54351a' }}>Ver más</Link></Button>
+                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', fontFamily: 'Hagin Caps', color: '#54351a' }} to="/induccion-cursos">Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>

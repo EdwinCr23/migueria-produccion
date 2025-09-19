@@ -8,7 +8,7 @@ const Home = () => {
             <div className="body-home">
                 <h1>Bienvenidos al portal web del empleado</h1>
                 <div className="video">
-                    <video src="src\assets\video\video.mp4" autoPlay muted></video>
+                    <video src="https://www.elmiguerito.com/Recursos/video.mp4" autoPlay muted></video>
                 </div>
             </div>
             <div className="historia">
@@ -49,7 +49,7 @@ const Home = () => {
                             "Orgullo",
                         ].map((valor, index) => (
                             <li key={index}>
-                                <img src="src\assets\images\Gorrito.png" alt={valor} />
+                                <img src="https://www.elmiguerito.com/Recursos/Gorrito.png" alt={valor} />
                                 <span>{valor}</span>
                             </li>
                         ))}

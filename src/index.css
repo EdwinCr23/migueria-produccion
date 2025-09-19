@@ -8,6 +8,12 @@
   src: url(/public/tipografia/Hagin-Caps-Medium.otf);
 }
 
+@media (min-width: 768px) {
+  .body-home {
+    width: auto;
+  }
+}
+
 h1 {
   font-family: 'Hagins-Caps';
   text-align: center;

@@ -9,7 +9,7 @@ const Ambiental = () => {
                     <CardMedia
                         component="img"
                         height="140"
-                        image="src\assets\images\IMG_1765.jpg"
+                        image="https://www.elmiguerito.com/Recursos/IMG_1765.jpg"
                         alt="logo-migueria"
                         sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
                     />
