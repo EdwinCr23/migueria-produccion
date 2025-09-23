@@ -9,17 +9,17 @@ const SST = () => {
                     <CardMedia
                         component="img"
                         height="140"
-                        image="src\assets\images\IMG_1765.jpg"
+                        image="https://www.elmiguerito.com/Recursos/Images/Sistema-de-SG-SST.webp"
                         alt="logo"
                         sx={{ width: '100%', margin: 'auto', padding: 'auto' }}
                     />
                 </CardActionArea>
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>SST</Typography>
-                    <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Este es el módulo de SST</Typography>
+                    <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>SST</Typography>
+                    <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Este es el módulo de SST</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', borderRadius: 3, border: '1px solid #54351a' }}><Link style={{ textDecoration: 'none', background: '#eae3d7', color: '#54351a', fontFamily: 'Hagin Caps' }} to="/sst-cursos">Ver más</Link></Button>
+                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', borderRadius: 3, border: '1px solid #54351a' }}><Link style={{ textDecoration: 'none', background: '#eae3d7', color: '#54351a', fontFamily: 'Hagins-Caps' }} to="/sst-cursos">Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>

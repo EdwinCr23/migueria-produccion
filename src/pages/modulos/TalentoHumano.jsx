@@ -9,17 +9,17 @@ const TalentoHumano = () => {
                     <CardMedia
                         component="img"
                         height="140"
-                        image="src\assets\images\IMG_1765.jpg"
+                        image="https://www.elmiguerito.com/Recursos/IMG_1765.jpg"
                         alt="logo-migueria"
                         sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
                     />
                 </CardActionArea>
                 <CardContent>
-                    <Typography gutterBottom variant="h5" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Talento Humano</Typography>
-                    <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Este es el módulo de Talento Humano</Typography>
+                    <Typography gutterBottom variant="h5" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Talento Humano</Typography>
+                    <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Este es el módulo de Talento Humano</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagin Caps' }} to="/rh-cursos">Ver más</Link></Button>
+                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagins-Caps' }} to="/rh-cursos">Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>

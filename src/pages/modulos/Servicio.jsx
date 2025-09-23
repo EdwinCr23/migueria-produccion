@@ -9,19 +9,19 @@ const Servicio = () => {
                     <CardMedia
                         component="img"
                         height="140"
-                        image="src\assets\images\IMG_1765.jpg"
+                        image="https://www.elmiguerito.com/Recursos/Images/IMG_1761.jpg"
                         alt="logo"
                         sx={{ width: '100%', margin: 'auto', padding: 'auto' }}
                     />
                 </CardActionArea>
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Servicio</Typography>
+                    <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Servicio</Typography>
                     <Typography variant="body2" sx={{
-                        textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps'
+                        textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps'
                     }}>Este es el módulo de Servicio</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagin Caps' }} to="/servicios-cursos">Ver más</Link></Button>
+                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagins-Caps' }} to="/servicios-cursos">Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>

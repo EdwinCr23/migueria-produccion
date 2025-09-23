@@ -9,17 +9,17 @@ const Induccion = () => {
                     <CardMedia
                         component="img"
                         height="140"
-                        image="src\assets\images\IMG_1765.jpg"
+                        image="https://www.elmiguerito.com/Recursos/Images/IMG_3897.JPG"
                         alt="logo-migueria"
                         sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
                     />
                 </CardActionArea>
                 <CardContent>
-                    <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Inducción</Typography>
-                    <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagin Caps' }}>Este es el módulo de Inducción</Typography>
+                    <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Inducción</Typography>
+                    <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Este es el módulo de Inducción</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', fontFamily: 'Hagin Caps', color: '#54351a' }} to="/induccion-cursos">Ver más</Link></Button>
+                    <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', fontFamily: 'Hagins-Caps', color: '#54351a' }} to="/induccion-cursos">Ver más</Link></Button>
                 </CardActions>
             </Card>
         </div>
