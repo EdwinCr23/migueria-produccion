@@ -12,16 +12,16 @@ const School = () => {
     return (
         <div>
             <Header />
-            <div className="school text-xl xl" style={{ textAlign: 'center', fontFamily: 'Archer-Book' }}>
+            <div className="school text-xl xl" style={{ fontFamily: 'Archer-Book-pro', padding: '21px' }}>
                 <h1 className="text-xl xl">Finalidad</h1>
-                <p className="text-center col-6">
+                <p style={{ textAlign: 'justify' }}>
                     La escuela de formación tiene como propósito brindarte herramientas para que tu ingreso y formación en la Miguería sea un proceso de aprendizaje amigable, donde puedas conocer nuestro ADN y el propósito de cada una de las labores que hacen parte de esta gran familia.
                 </p>
-                <p className="text-center col-6" style={{ fontWeight: 'lighter' }}>
+                <p style={{ textAlign: 'justify' }}>
                     En esta plataforma te encontraras con diferentes módulos que van desde lo general a lo especifico de acuerdo al área en la que te vayas a desempeñar.
                     Te pedimos compromiso con cada uno de los contenidos que son suministrados para tu aprendizaje, al final todos los módulos tienen su respectiva evaluación.
                 </p>
-                <p className="text-center col-6" style={{ textAlign: 'left' }}>
+                <p style={{ textAlign: 'justify' }}>
                     Esperamos entre todos poder seguir construyendo esta gran familia. La ruta para que puedas acceder a los diferentes módulos es:
                     <ol className="school">
                         <li>Seleccionar el módulo al que desear ingresar</li>

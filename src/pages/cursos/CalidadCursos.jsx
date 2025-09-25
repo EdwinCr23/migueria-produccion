@@ -18,9 +18,9 @@ const CalidadCursos = () => {
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image="src\assets\images\IMG_1765.jpg"
+                                image="https://www.elmiguerito.com/Recursos/Images/IMG_1765.jpg"
                                 alt="logo-calidad"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                                sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'cover' }}
                             />
                         </CardActionArea>
                         <CardContent>
@@ -75,7 +75,7 @@ const CalidadCursos = () => {
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image="src\assets\images\IMG_1765.jpg"
+                                image="https://www.elmiguerito.com/Recursos/Images/Quimicos.jpg"
                                 alt="logo-calidad"
                                 sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
                             />
