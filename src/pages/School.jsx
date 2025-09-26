@@ -2,8 +2,6 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Ambiental from './modulos/Ambiental'
 import Calidad from './modulos/Calidad'
-import Desarrollo from './modulos/Desarrollo'
-import Induccion from './modulos/Induccion'
 import Servicio from './modulos/Servicio'
 import SST from './modulos/SST'
 import TalentoHumano from './modulos/TalentoHumano'
@@ -41,8 +39,6 @@ const School = () => {
                 <div className="mod" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '20px', flexWrap: 'wrap' }}>
                     <Ambiental />
                     <Calidad />
-                    <Desarrollo />
-                    <Induccion />
                     <Servicio />
                     <SST />
                     <TalentoHumano />

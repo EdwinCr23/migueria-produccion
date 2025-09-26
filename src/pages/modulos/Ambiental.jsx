@@ -9,9 +9,9 @@ const Ambiental = () => {
                     <CardMedia
                         component="img"
                         height="140"
-                        image="https://www.elmiguerito.com/Recursos/Images/Gestión-Ambiental.jpg"
+                        image="https://www.elmiguerito.com/Recursos/Images/Gestión-Ambiental.png"
                         alt="logo-migueria"
-                        sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'cover' }}
+                        sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'cover', objectFit: 'contain' }}
                     />
                 </CardActionArea>
                 <CardContent>

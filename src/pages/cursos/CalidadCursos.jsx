@@ -18,7 +18,7 @@ const CalidadCursos = () => {
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image="https://www.elmiguerito.com/Recursos/Images/IMG_1765.jpg"
+                                image="https://www.elmiguerito.com/Recursos/Images/calidad.jpg"
                                 alt="logo-calidad"
                                 sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'cover' }}
                             />
@@ -37,9 +37,9 @@ const CalidadCursos = () => {
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image="src\assets\images\IMG_1765.jpg"
+                                image="https://www.elmiguerito.com/Recursos/Images/alergenos.png"
                                 alt="logo-calidad"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                                sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'contain' }}
                             />
                         </CardActionArea>
                         <CardContent>
@@ -94,9 +94,9 @@ const CalidadCursos = () => {
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image="src\assets\images\IMG_1765.jpg"
+                                image="https://www.elmiguerito.com/Recursos/Images/Buenas_praticas.png"
                                 alt="logo-calidad"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                                sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'contain' }}
                             />
                         </CardActionArea>
                         <CardContent>
