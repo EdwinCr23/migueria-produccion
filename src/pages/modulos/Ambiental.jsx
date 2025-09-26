@@ -11,7 +11,7 @@ const Ambiental = () => {
                         height="140"
                         image="https://www.elmiguerito.com/Recursos/Images/Gestión-Ambiental.png"
                         alt="logo-migueria"
-                        sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'cover', objectFit: 'contain' }}
+                        sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'contain' }}
                     />
                 </CardActionArea>
                 <CardContent>
