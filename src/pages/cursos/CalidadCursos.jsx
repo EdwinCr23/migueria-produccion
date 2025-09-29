@@ -56,7 +56,7 @@ const CalidadCursos = () => {
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image="src\assets\images\IMG_1765.jpg"
+                                image="https://www.elmiguerito.com/Recursos/Images/alergenos.png"
                                 alt="logo-calidad"
                                 sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
                             />

@@ -26,7 +26,7 @@ const TalentoHumanoCursos = () => {
                             <Typography gutterBottom component="h5" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Talento Humano</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Realizar</Link></Button>
+                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagins-Caps' }} to="https://elmiguerito.com/escuela/course/view.php?id=18" target='blank'>Realizar</Link></Button>
                         </CardActions>
                     </Card>
                 </div>
@@ -45,7 +45,7 @@ const TalentoHumanoCursos = () => {
                             <Typography gutterBottom component="h5" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Plan de crecimiento</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Realizar</Link></Button>
+                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagins-Caps' }} to="https://elmiguerito.com/escuela/course/view.php?id=19" target='blank'>Realizar</Link></Button>
                         </CardActions>
                     </Card>
                 </div>
@@ -64,7 +64,7 @@ const TalentoHumanoCursos = () => {
                             <Typography gutterBottom component="h5" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Manual de cultura</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Realizar</Link></Button>
+                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagins-Caps' }} to="https://elmiguerito.com/escuela/course/view.php?id=20" target='blank'>Realizar</Link></Button>
                         </CardActions>
                     </Card>
                 </div>

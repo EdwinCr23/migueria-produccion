@@ -40,7 +40,7 @@ const Birtday = () => {
         <div>
             <Header />
             <div style={{ padding: 10, margin: 10 }}>
-                <h1 className="text-2xl font-bold mb-4">Cumpleaños de empleados</h1>
+                <h1>Cumpleaños de empleados</h1>
                 <FullCalendar
                     plugins={[dayGridPlugin]}
                     initialView="dayGridMonth"

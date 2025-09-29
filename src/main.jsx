@@ -13,6 +13,8 @@ import ServicioCursos from './pages/cursos/ServicioCursos.jsx'
 import SStCursos from './pages/cursos/SSTCursos.jsx'
 import TalentoHumanoCursos from './pages/cursos/TalentoHumanoCursos.jsx'
 import AdminForm from './components/AdminForm.jsx'
+import UserAdmin from './components/UserAdmin.jsx'
+import ProtectedRoute from './components/ProtectedRoute.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -22,6 +24,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/escuela' element={<School />} />
       <Route path='/cumpleanios' element={<Birtday />} />
       <Route path='/admin' element={<AdminForm />} />
+      <Route path='/login' element={<ProtectedRoute><UserAdmin /></ProtectedRoute>} />
       <Route path='/ambiental-cursos' element={<CursosAmbiental />} />
       <Route path='/calidad-cursos' element={<CalidadCursos />} />
       <Route path='/desarrollo-cursos' element={<DesarrolloCursos />} />

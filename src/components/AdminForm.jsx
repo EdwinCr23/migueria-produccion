@@ -50,10 +50,9 @@ const AdminForm = () => {
                     style={{
                         maxWidth: '30rem',
                         margin: 'auto',
-                        backgroundColor: 'white',
+                        backgroundColor: '#eae3d7',
                         padding: '2rem',
-                        borderRadius: '1rem',
-                        boxShadow: '0 10px 15px rgba(0, 0, 0, 0.1)'
+                        borderRadius: '1rem'
                     }}>
                     <div className="flex flex-col" style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                         <div className="mb-4">
@@ -134,8 +133,9 @@ const AdminForm = () => {
                                 type="submit"
                                 style={{
                                     width: '100%',
-                                    backgroundColor: '#eae3d7', // bg-sky-500
-                                    color: '#54351a',
+                                    backgroundColor: '#54351a', // bg-sky-500
+                                    color: '#eae3d7',
+                                    fontFamily: 'Hagins-Caps',
                                     fontWeight: 600,
                                     padding: '0.75rem',
                                     border: 'none',

@@ -12,7 +12,7 @@ const Header = () => {
                 <Link className='nav' to='/' onClick={() => setOpen(false)}>Inicio</Link>
                 <Link className='nav' to='/escuela' onClick={() => setOpen(false)}>Escuela</Link>
                 <Link className='nav' to='/cumpleanios' onClick={() => setOpen(false)}>Cumpleaños</Link>
-                <Link className='nav' to='/admin' onClick={() => setOpen(false)}>Admin</Link>
+                <Link className='nav' to='/login' onClick={() => setOpen(false)}>Admin</Link>
             </nav>
         </header>
     )
