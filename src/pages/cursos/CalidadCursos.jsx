@@ -56,9 +56,9 @@ const CalidadCursos = () => {
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image="https://www.elmiguerito.com/Recursos/Images/alergenos.png"
+                                image="https://www.elmiguerito.com/Recursos/Images/Microbiologia.png"
                                 alt="logo-calidad"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                                sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'cover' }}
                             />
                         </CardActionArea>
                         <CardContent>
@@ -75,9 +75,9 @@ const CalidadCursos = () => {
                             <CardMedia
                                 component="img"
                                 height="140"
-                                image="https://www.elmiguerito.com/Recursos/Images/Quimicos.jpg"
+                                image="https://www.elmiguerito.com/Recursos/Images/Productos-Quimicos.png"
                                 alt="logo-calidad"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                                sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'contain' }}
                             />
                         </CardActionArea>
                         <CardContent>
