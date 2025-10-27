@@ -15,6 +15,8 @@ import TalentoHumanoCursos from './pages/cursos/TalentoHumanoCursos.jsx'
 import AdminForm from './components/AdminForm.jsx'
 import UserAdmin from './components/UserAdmin.jsx'
 import ProtectedRoute from './components/ProtectedRoute.jsx'
+import Migueria from './pages/Migueria.jsx'
+import Rooms from './pages/Rooms.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -32,6 +34,8 @@ createRoot(document.getElementById('root')).render(
       <Route path='/servicios-cursos' element={<ServicioCursos />} />
       <Route path='/sst-cursos' element={<SStCursos />} />
       <Route path='/rh-cursos' element={<TalentoHumanoCursos />} />
+      <Route path='/migueria' element={<Migueria />} />
+      <Route path='/salas' element={<Rooms />} />
     </Routes>
   </BrowserRouter>,
 )

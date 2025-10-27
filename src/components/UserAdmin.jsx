@@ -14,7 +14,7 @@ const UserAdmin = () => {
         e.preventDefault();
         try {
             await signInWithEmailAndPassword(auth, email, password);
-            navigate("/admin")
+            navigate("/migueria")
         } catch (err) {
             console.error(err)
             setError("Credenciales incorrectas o usuario no registrado")
