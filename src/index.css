@@ -44,6 +44,10 @@
     align-items: center;
   }
 
+  .login {
+    width: auto;
+  }
+
 }
 
 html,

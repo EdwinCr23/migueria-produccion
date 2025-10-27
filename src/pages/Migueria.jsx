@@ -8,7 +8,7 @@ const Migueria = () => {
         <div>
             <Header />
             <h1>Bienvenid@</h1>
-            <div className="acciones" style={{ display: 'flex', justifyContent: 'center' }}>
+            <div className="cursos" style={{ display: 'flex', justifyContent: 'center' }}>
                 <div className="cumpleanios" style={{ padding: 10 }}>
                     <Card sx={{ width: 200, height: 300, borderRadius: 3, background: '#eae3d7', boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
                         <CardActionArea>

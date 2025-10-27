@@ -26,7 +26,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/escuela' element={<School />} />
       <Route path='/cumpleanios' element={<Birtday />} />
       <Route path='/admin' element={<AdminForm />} />
-      <Route path='/login' element={<ProtectedRoute><UserAdmin /></ProtectedRoute>} />
+      <Route path='/login' element={<UserAdmin />} />
       <Route path='/ambiental-cursos' element={<CursosAmbiental />} />
       <Route path='/calidad-cursos' element={<CalidadCursos />} />
       <Route path='/desarrollo-cursos' element={<DesarrolloCursos />} />
