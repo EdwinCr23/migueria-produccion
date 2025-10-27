@@ -12,6 +12,7 @@ import {
     Timestamp
 } from "firebase/firestore";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Rooms = () => {
     const [room, setRoom] = useState("Sala 1");
@@ -256,6 +257,7 @@ const Rooms = () => {
                     </table>
                 )}
             </div>
+            <Footer />
         </div>
 
     );
