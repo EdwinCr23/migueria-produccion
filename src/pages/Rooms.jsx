@@ -22,6 +22,8 @@ const Rooms = () => {
     const [name, setName] = useState("");
     const [reservations, setReservations] = useState([]);
     const [loading, setLoading] = useState(false);
+    const [modalVisible, setModalVisible] = useState(false);
+    const [reservationCode, setReservationCode] = useState("");
 
     const reservationsRef = collection(db, "reservas_salas");
 
@@ -123,8 +125,11 @@ const Rooms = () => {
                 codigo: code, // 🔹 Guardar el código en Firestore
             });
 
-            alert(`✅ Reserva guardada correctamente.\nTu código único generado: ${code}\n⚠️ Guárdalo bien, lo necesitarás para eliminar la reserva.`);
+            // Mostrar modal con el código
+            setReservationCode(code);
+            setModalVisible(true);
 
+            // Resetear formulario
             setName("");
             setDate("");
             setStartTime("");
@@ -155,6 +160,12 @@ const Rooms = () => {
             alert("🗑️ Reserva eliminada correctamente.");
             fetchReservations();
         }
+    };
+
+    // 🔹 Copiar código al portapapeles
+    const copyCode = () => {
+        navigator.clipboard.writeText(reservationCode);
+        alert("📋 Código copiado al portapapeles");
     };
 
     return (
@@ -240,7 +251,7 @@ const Rooms = () => {
                 <h2>📋 Reservas Existentes</h2>
 
                 {reservations.length === 0 ? (
-                    <p style={{ textAlign: 'center' }}>No hay reservas registradas.</p>
+                    <p>No hay reservas registradas.</p>
                 ) : (
                     <table style={{
                         width: "100%",
@@ -286,9 +297,56 @@ const Rooms = () => {
                     </table>
                 )}
             </div>
+
+            {/* 🔹 Modal para mostrar el código */}
+            {modalVisible && (
+                <div style={{
+                    position: "fixed",
+                    top: 0, left: 0, width: "100%", height: "100%",
+                    backgroundColor: "rgba(0,0,0,0.6)",
+                    display: "flex", alignItems: "center", justifyContent: "center",
+                    zIndex: 1000
+                }}>
+                    <div style={{
+                        backgroundColor: "#eae3d7",
+                        padding: "2rem",
+                        borderRadius: "10px",
+                        textAlign: "center",
+                        boxShadow: "0 0 20px rgba(0,0,0,0.2)"
+                    }}>
+                        <h3 style={{ color: "#54351a", marginBottom: "1rem", fontFamily: 'Hagins-Caps' }}>✅ Reserva Guardada</h3>
+                        <p style={{ marginBottom: "0.5rem" }}>Código único generado:</p>
+                        <h2 style={{ color: "#54351a", fontFamily: "Hagins-Caps" }}>{reservationCode}</h2>
+                        <p style={{ fontSize: "0.9rem", color: "#54351a" }}>¡Guárdalo, lo necesitarás para cancelar tu reserva!</p>
+                        <div style={{ marginTop: "1.5rem" }}>
+                            <button onClick={copyCode} style={{
+                                backgroundColor: "#54351a",
+                                color: "#eae3d7",
+                                fontFamily: 'Archer-Book-Pro',
+                                border: "none",
+                                padding: "8px 14px",
+                                borderRadius: "5px",
+                                marginRight: "10px",
+                                cursor: "pointer"
+                            }}>
+                                Copiar Código
+                            </button>
+                            <button onClick={() => setModalVisible(false)} style={{
+                                backgroundColor: "#ccc",
+                                fontFamily: 'Archer-Book-Pro',
+                                border: "none",
+                                padding: "8px 14px",
+                                borderRadius: "5px",
+                                cursor: "pointer"
+                            }}>
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
             <Footer />
         </div>
-
     );
 };
 
