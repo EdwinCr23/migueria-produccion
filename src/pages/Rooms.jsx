@@ -25,6 +25,16 @@ const Rooms = () => {
 
     const reservationsRef = collection(db, "reservas_salas");
 
+    // 🔹 Generar código único de 6 caracteres
+    const generateCode = () => {
+        const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        let code = "";
+        for (let i = 0; i < 6; i++) {
+            code += chars.charAt(Math.floor(Math.random() * chars.length));
+        }
+        return code;
+    };
+
     // 🔹 Cargar reservas existentes y eliminar las que ya pasaron
     const fetchReservations = async () => {
         const q = query(reservationsRef, orderBy("fechaHoraInicio", "asc"));
@@ -91,9 +101,16 @@ const Rooms = () => {
 
             if (overlap) {
                 alert("⚠️ Esa sala ya está reservada en ese rango horario.");
+                setName("");
+                setDate("");
+                setStartTime("");
+                setEndTime("");
                 setLoading(false);
                 return;
             }
+
+            // 🔸 Generar código único
+            const code = generateCode();
 
             await addDoc(reservationsRef, {
                 nombre: name,
@@ -103,9 +120,11 @@ const Rooms = () => {
                 horaFin: endTime,
                 fechaHoraInicio: Timestamp.fromDate(start),
                 fechaHoraFin: Timestamp.fromDate(end),
+                codigo: code, // 🔹 Guardar el código en Firestore
             });
 
-            alert("✅ Reserva guardada correctamente");
+            alert(`✅ Reserva guardada correctamente.\nTu código único generado: ${code}\n⚠️ Guárdalo bien, lo necesitarás para eliminar la reserva.`);
+
             setName("");
             setDate("");
             setStartTime("");
@@ -119,11 +138,21 @@ const Rooms = () => {
         setLoading(false);
     };
 
-    // 🔹 Eliminar reserva manualmente
+    // 🔹 Eliminar reserva solicitando el código
     const handleDelete = async (id) => {
+        const reserva = reservations.find((r) => r.id === id);
+        if (!reserva) return;
+
+        const codigoIngresado = prompt("🔒 Ingresa el código de eliminación para esta reserva:");
+
+        if (codigoIngresado !== reserva.codigo) {
+            alert("❌ Código incorrecto. No se puede eliminar la reserva.");
+            return;
+        }
+
         if (confirm("¿Seguro que deseas eliminar esta reserva?")) {
             await deleteDoc(doc(db, "reservas_salas", id));
-            alert("🗑️ Reserva eliminada");
+            alert("🗑️ Reserva eliminada correctamente.");
             fetchReservations();
         }
     };
@@ -211,7 +240,7 @@ const Rooms = () => {
                 <h2>📋 Reservas Existentes</h2>
 
                 {reservations.length === 0 ? (
-                    <p>No hay reservas registradas.</p>
+                    <p style={{ textAlign: 'center' }}>No hay reservas registradas.</p>
                 ) : (
                     <table style={{
                         width: "100%",
