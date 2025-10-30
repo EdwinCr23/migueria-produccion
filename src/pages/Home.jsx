@@ -33,7 +33,9 @@ const Home = () => {
                         en nuestros clientes lo mejor de la tradición familiar</p>
                 </div>
             </div>
-            <div className="valores">
+            <div className="valores" style={{
+                width: '100%', height: 'auto', textAlign: 'center'
+            }}>
                 <h2>Valores</h2>
                 <article>
                     <ul>

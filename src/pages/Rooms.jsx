@@ -13,6 +13,7 @@ import {
 } from "firebase/firestore";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Rooms = () => {
     const [room, setRoom] = useState("Sala 1");
@@ -234,18 +235,37 @@ const Rooms = () => {
                             style={{ width: "100%", padding: "8px" }}
                         />
                     </div>
-
-                    <button type="submit" disabled={loading} style={{
-                        padding: "10px 20px",
-                        backgroundColor: "#54351a",
-                        color: "#eae3d7",
-                        fontFamily: 'Hagins-Caps',
-                        border: "none",
-                        borderRadius: "5px",
-                        cursor: "pointer"
+                    <div style={{
+                        display: 'block',
+                        margin: 12,
+                        alignItems: 'center'
                     }}>
-                        {loading ? "Guardando..." : "Reservar"}
-                    </button>
+                        <button type="submit" disabled={loading} style={{
+                            padding: "10px 20px",
+                            backgroundColor: "#54351a",
+                            color: "#eae3d7",
+                            fontFamily: 'Hagins-Caps',
+                            border: "none",
+                            borderRadius: "5px",
+                            cursor: "pointer",
+                            marginRight: 10
+                        }}>
+                            {loading ? "Guardando..." : "Reservar"}
+                        </button>
+                        <button style={{
+                            padding: "10px 20px",
+                            backgroundColor: "#54351a",
+                            color: "#eae3d7",
+                            fontFamily: 'Hagins-Caps',
+                            border: "none",
+                            borderRadius: "5px",
+                            cursor: "pointer",
+                            marginRight: 10
+                        }}><Link to='/migueria' style={{
+                            textDecoration: 'none',
+                            color: '#eae3d7'
+                        }}>Regresar</Link></button>
+                    </div>
                 </form>
 
                 <h2>📋 Reservas Existentes</h2>

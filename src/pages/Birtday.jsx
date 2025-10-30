@@ -72,9 +72,9 @@ const BirthdayCalendar = () => {
     }, []);
 
     return (
-        <div className="min-h-screen p-6">
+        <div>
             <Header />
-            <h1 className="text-2xl font-bold mb-4">Cumpleaños de empleados</h1>
+            <h1>Cumpleaños de empleados</h1>
             <div className="bg-white p-4 rounded shadow">
                 <FullCalendar
                     plugins={[dayGridPlugin]}

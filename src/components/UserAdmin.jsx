@@ -27,7 +27,12 @@ const UserAdmin = () => {
             <div className="login">
                 <form
                     onSubmit={handleLogin}
-                    style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '21px' }}
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        padding: '21px'
+                    }}
                 >
                     <h2>Iniciar Sesión</h2>
                     {error && <p>{error}</p>}
@@ -36,18 +41,42 @@ const UserAdmin = () => {
                         placeholder="Correo electrónico"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        style={{ margin: '12px', fontFamily: 'Archer-Book-pro', border: '1px solid #54351a', borderRadius: 3, width: '200px', height: '21px' }}
+                        style={{
+                            margin: '12px',
+                            fontFamily: 'Archer-Book-pro',
+                            border: '1px solid #54351a',
+                            borderRadius: 3,
+                            width: '200px',
+                            height: '21px'
+                        }}
                     />
                     <input
                         type="password"
                         placeholder="Contraseña"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        style={{ margin: '12px', fontFamily: 'Archer-Book-pro', color: '#54351a', border: '1px solid #54351a', borderRadius: 3, width: '200px', height: '21px' }}
+                        style={{
+                            margin: '12px',
+                            fontFamily: 'Archer-Book-pro',
+                            color: '#54351a',
+                            border: '1px solid #54351a',
+                            borderRadius: 3,
+                            width: '200px',
+                            height: '21px'
+                        }}
                     />
                     <button
                         type="submit"
-                        style={{ background: '#54351a', color: '#eae3d7', fontFamily: 'Hagins-Caps', margin: '12px', width: '10%', height: 'auto', border: '1px solid #eae3d7', borderRadius: 3 }}
+                        style={{
+                            background: '#54351a',
+                            color: '#eae3d7',
+                            fontFamily: 'Hagins-Caps',
+                            margin: '12px',
+                            width: '10%',
+                            height: 'auto',
+                            border: '1px solid #eae3d7',
+                            borderRadius: 3
+                        }}
                     >
                         Entrar
                     </button>
