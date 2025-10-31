@@ -8,16 +8,37 @@ const DesarrolloCursos = () => {
             <Header />
             <h1>Bienvenidos al módulo de Desarrollo</h1>
             <h2>Aliados</h2>
-            <div className="cursos" style={{ display: 'flex', justifyContent: 'center' }}>
-                <div style={{ padding: 10 }}>
-                    <Card sx={{ width: 200, height: 300, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div className="cursos"
+                style={{
+                    display: 'flex',
+                    justifyContent: 'center'
+                }}>
+                <div
+                    style={{
+                        padding: 10
+                    }}>
+                    <Card
+                        sx={{
+                            width: 200,
+                            height: 300,
+                            background: '#eae3d7',
+                            borderRadius: 3,
+                            boxShadow: '2px 6px 15px #54351a',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between'
+                        }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
                                 height="140"
                                 image="https://www.elmiguerito.com/Recursos/Images/caja.png"
                                 alt="logo-calidad"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                                sx={{
+                                    width: '100%',
+                                    padding: 'auto',
+                                    margin: 'auto'
+                                }}
                             />
                         </CardActionArea>
                         <CardContent>
@@ -28,15 +49,32 @@ const DesarrolloCursos = () => {
                         </CardActions>
                     </Card>
                 </div>
-                <div style={{ padding: 10 }}>
-                    <Card sx={{ width: 200, height: 300, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div
+                    style={{
+                        padding: 10
+                    }}>
+                    <Card
+                        sx={{
+                            width: 200,
+                            height: 300,
+                            background: '#eae3d7',
+                            borderRadius: 3,
+                            boxShadow: '2px 6px 15px #54351a',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between'
+                        }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
                                 height="140"
                                 image="https://www.elmiguerito.com/Recursos/Images/sena.png"
                                 alt="logo-calidad"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                                sx={{
+                                    width: '100%',
+                                    padding: 'auto',
+                                    margin: 'auto'
+                                }}
                             />
                         </CardActionArea>
                         <CardContent>
@@ -47,15 +85,32 @@ const DesarrolloCursos = () => {
                         </CardActions>
                     </Card>
                 </div>
-                <div style={{ padding: 10 }}>
-                    <Card sx={{ width: 200, height: 300, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div
+                    style={{
+                        padding: 10
+                    }}>
+                    <Card
+                        sx={{
+                            width: 200,
+                            height: 300,
+                            background: '#eae3d7',
+                            borderRadius: 3,
+                            boxShadow: '2px 6px 15px #54351a',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between'
+                        }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
                                 height="140"
                                 image="https://www.elmiguerito.com/Recursos/Images/"
                                 alt="logo-calidad"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                                sx={{
+                                    width: '100%',
+                                    padding: 'auto',
+                                    margin: 'auto'
+                                }}
                             />
                         </CardActionArea>
                         <CardContent>
@@ -66,15 +121,32 @@ const DesarrolloCursos = () => {
                         </CardActions>
                     </Card>
                 </div>
-                <div style={{ padding: 10 }}>
-                    <Card sx={{ width: 200, height: 300, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div
+                    style={{
+                        padding: 10
+                    }}>
+                    <Card
+                        sx={{
+                            width: 200,
+                            height: 300,
+                            background: '#eae3d7',
+                            borderRadius: 3,
+                            boxShadow: '2px 6px 15px #54351a',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between'
+                        }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
                                 height="140"
                                 image="https://www.elmiguerito.com/Recursos/Images/"
                                 alt="logo-calidad"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto' }}
+                                sx={{
+                                    width: '100%',
+                                    padding: 'auto',
+                                    margin: 'auto'
+                                }}
                             />
                         </CardActionArea>
                         <CardContent>

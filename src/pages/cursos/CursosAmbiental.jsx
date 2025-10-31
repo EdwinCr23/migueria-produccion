@@ -46,67 +46,194 @@ const CursosAmbiental = () => {
                             />
                         </CardActionArea>
                         <CardContent>
-                            <Typography gutterBottom variant="h5" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Cambio Climático</Typography>
-                            <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Archer-Book-Pro' }}>Es la modificación de la temperatura y del resto de variables del clima</Typography>
+                            <Typography gutterBottom variant="h5"
+                                sx={{
+                                    textAlign: 'center',
+                                    color: '#54351a',
+                                    fontFamily: 'Hagins-Caps'
+                                }}>Cambio Climático</Typography>
+                            <Typography variant="body2"
+                                sx={{
+                                    textAlign: 'center',
+                                    color: '#54351a',
+                                    fontFamily: 'Archer-Book-Pro'
+                                }}>Es la modificación de la temperatura y del resto de variables del clima</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'hagins-Caps' }} to="https://elmiguerito.com/escuela/course/view.php?id=5" target="blank">Realizar</Link></Button>
+                            <Button
+                                size="small"
+                                sx={{
+                                    width: '90%',
+                                    padding: 'auto',
+                                    margin: 'auto',
+                                    border: '1px solid #54351a',
+                                    borderRadius: 3
+                                }}><Link
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: '#54351a',
+                                        fontFamily: 'hagins-Caps'
+                                    }} to="https://elmiguerito.com/escuela/course/view.php?id=5"
+                                    target="blank">Realizar</Link></Button>
                         </CardActions>
                     </Card>
                 </div>
-                <div style={{ padding: 10 }}>
-                    <Card sx={{ width: 200, height: 350, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div
+                    style={{
+                        padding: 10
+                    }}>
+                    <Card
+                        sx={{
+                            width: 200,
+                            height: 350,
+                            background: '#eae3d7',
+                            borderRadius: 3,
+                            boxShadow: '2px 6px 15px #54351a',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between'
+                        }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
                                 height="140"
                                 image="https://www.elmiguerito.com/Recursos/Images/Gestion.png"
                                 alt="ambiental-logo"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'contain' }}
+                                sx={{
+                                    width: '100%',
+                                    padding: 'auto',
+                                    margin: 'auto',
+                                    objectFit: 'contain'
+                                }}
                             />
                         </CardActionArea>
                         <CardContent>
-                            <Typography gutterBottom variant="h5" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Gestión Ambiental</Typography>
-                            <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Archer-Book-Pro' }}>Es un proceso que está orientado a resolver los problemas ambientales</Typography>
+                            <Typography gutterBottom variant="h5"
+                                sx={{
+                                    textAlign: 'center',
+                                    color: '#54351a',
+                                    fontFamily: 'Hagins-Caps'
+                                }}>Gestión Ambiental</Typography>
+                            <Typography variant="body2"
+                                sx={{
+                                    textAlign: 'center',
+                                    color: '#54351a',
+                                    fontFamily: 'Archer-Book-Pro'
+                                }}>Es un proceso que está orientado a resolver los problemas ambientales</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'hagins-Caps' }} to="https://elmiguerito.com/escuela/course/view.php?id=4" target="blank">Realizar</Link></Button>
+                            <Button
+                                size="small"
+                                sx={{
+                                    width: '90%',
+                                    padding: 'auto',
+                                    margin: 'auto',
+                                    border: '1px solid #54351a',
+                                    borderRadius: 3
+                                }}><Link
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: '#54351a',
+                                        fontFamily: 'hagins-Caps'
+                                    }} to="https://elmiguerito.com/escuela/course/view.php?id=4"
+                                    target="blank">Realizar</Link></Button>
                         </CardActions>
                     </Card>
                 </div>
-                <div style={{ padding: 10 }}>
-                    <Card sx={{ width: 200, height: 350, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div
+                    style={{
+                        padding: 10
+                    }}>
+                    <Card
+                        sx={{
+                            width: 200,
+                            height: 350,
+                            background: '#eae3d7',
+                            borderRadius: 3,
+                            boxShadow: '2px 6px 15px #54351a',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between'
+                        }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
                                 height="140"
                                 image="https://www.elmiguerito.com/Recursos/Images/Agua.png"
                                 alt="ambiental-logo"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'contain' }}
+                                sx={{
+                                    width: '100%',
+                                    padding: 'auto',
+                                    margin: 'auto',
+                                    objectFit: 'contain'
+                                }}
                             />
                         </CardActionArea>
                         <CardContent>
-                            <Typography gutterBottom variant="h5" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Hagins-Caps' }}>Importancia del agua</Typography>
-                            <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Archer-Book-Pro', fontSize: '12px' }}>Es fundamental para la vida, la salud humana, la sociedad y el medio ambiente</Typography>
+                            <Typography gutterBottom variant="h5"
+                                sx={{
+                                    textAlign: 'center',
+                                    color: '#54351a',
+                                    fontFamily: 'Hagins-Caps'
+                                }}>Importancia del agua</Typography>
+                            <Typography variant="body2"
+                                sx={{
+                                    textAlign: 'center',
+                                    color: '#54351a',
+                                    fontFamily: 'Archer-Book-Pro',
+                                    fontSize: '12px'
+                                }}>Es fundamental para la vida, la salud humana, la sociedad y el medio ambiente</Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'hagins-Caps' }} to="https://elmiguerito.com/escuela/course/view.php?id=22" target="blank">Realizar</Link></Button>
+                            <Button
+                                size="small"
+                                sx={{
+                                    width: '90%',
+                                    padding: 'auto',
+                                    margin: 'auto',
+                                    border: '1px solid #54351a',
+                                    borderRadius: 3
+                                }}><Link
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: '#54351a',
+                                        fontFamily: 'hagins-Caps'
+                                    }} to="https://elmiguerito.com/escuela/course/view.php?id=22"
+                                    target="blank">Realizar</Link></Button>
                         </CardActions>
                     </Card>
                 </div>
-                {/*/<div style={{ padding: 10 }}>
-                    <Card sx={{ width: 200, height: 350, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                {/*/<div 
+                style={{ 
+                padding: 10 }}>
+                    <Card 
+                    sx={{ 
+                    width: 200, 
+                    height: 350, 
+                    background: '#eae3d7', 
+                    borderRadius: 3, 
+                    boxShadow: '2px 6px 15px #54351a', 
+                    display: 'flex', 
+                    flexDirection: 'column', 
+                    justifyContent: 'space-between' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
                                 height="140"
                                 image="https://www.elmiguerito.com/Recursos/Images/Induccion.png"
                                 alt="ambiental-logo"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'contain' }}
+                                sx={{ 
+                                width: '100%', 
+                                padding: 'auto', 
+                                margin: 'auto', 
+                                objectFit: 'contain' }}
                             />
                         </CardActionArea>
                         <CardContent>
-                            <Typography gutterBottom variant="h5" sx={{ textAlign: "center", color: '#54351a', fontFamily: 'Hagins-Caps' }}>Inducción</Typography>
+                            <Typography gutterBottom variant="h5" 
+                            sx={{ textAlign: "center", 
+                            color: '#54351a', 
+                            fontFamily: 'Hagins-Caps' }}>Inducción</Typography>
                             <Typography variant="body2" sx={{ textAlign: 'center', color: '#54351a', fontFamily: 'Archer-Book-Pro' }}>Curso del área Ambiental</Typography>
                         </CardContent>
                         <CardActions>
@@ -114,23 +241,66 @@ const CursosAmbiental = () => {
                         </CardActions>
                     </Card>
                 </div>*/}
-                <div style={{ padding: 10 }}>
-                    <Card sx={{ width: 200, height: 350, background: '#eae3d7', borderRadius: 3, boxShadow: '2px 6px 15px #54351a', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <div
+                    style={{
+                        padding: 10
+                    }}>
+                    <Card
+                        sx={{
+                            width: 200,
+                            height: 350,
+                            background: '#eae3d7',
+                            borderRadius: 3,
+                            boxShadow: '2px 6px 15px #54351a',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between'
+                        }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
                                 height="140"
                                 image="https://www.elmiguerito.com/Recursos/Images/Residuos.png"
                                 alt="ambiental-logo"
-                                sx={{ width: '100%', padding: 'auto', margin: 'auto', objectFit: 'contain' }}
+                                sx={{
+                                    width: '100%',
+                                    padding: 'auto',
+                                    margin: 'auto',
+                                    objectFit: 'contain'
+                                }}
                             />
                         </CardActionArea>
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div" sx={{ textAlign: "center", color: '#54351a', fontFamily: 'Hagins-Caps' }}>Manejo de Residuos</Typography>
-                            <Typography variant="body2" sx={{ textAlign: "center", color: '#54351a', fontFamily: 'Archer-Book-Pro', fontSize: '12px' }}>Se componen principalmente de desechos procedentes de materiales </Typography>
+                            <Typography gutterBottom variant="h5" component="div"
+                                sx={{
+                                    textAlign: "center",
+                                    color: '#54351a',
+                                    fontFamily: 'Hagins-Caps'
+                                }}>Manejo de Residuos</Typography>
+                            <Typography variant="body2"
+                                sx={{
+                                    textAlign: "center",
+                                    color: '#54351a',
+                                    fontFamily: 'Archer-Book-Pro',
+                                    fontSize: '12px'
+                                }}>Se componen principalmente de desechos procedentes de materiales </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button size="small" sx={{ width: '90%', padding: 'auto', margin: 'auto', border: '1px solid #54351a', borderRadius: 3 }}><Link style={{ textDecoration: 'none', color: '#54351a', fontFamily: 'Hagins-Caps' }} to="https://elmiguerito.com/escuela/course/view.php?id=2" target="blank">Realizar</Link></Button>
+                            <Button
+                                size="small"
+                                sx={{
+                                    width: '90%',
+                                    padding: 'auto',
+                                    margin: 'auto',
+                                    border: '1px solid #54351a',
+                                    borderRadius: 3
+                                }}><Link
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: '#54351a',
+                                        fontFamily: 'Hagins-Caps'
+                                    }} to="https://elmiguerito.com/escuela/course/view.php?id=2"
+                                    target="blank">Realizar</Link></Button>
                         </CardActions>
                     </Card>
                 </div>
