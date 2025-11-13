@@ -3,6 +3,7 @@ import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from '../components/firebase'
 import { useNavigate } from 'react-router-dom'
 import Header from './Header'
+import Footer from './Footer'
 
 const UserAdmin = () => {
     const navigate = useNavigate();
@@ -24,7 +25,12 @@ const UserAdmin = () => {
     return (
         <div>
             <Header />
-            <div className="login">
+            <div className="login"
+                style={{
+                    marginTop: '30px',
+                    marginBottom: '50px',
+                    padding: 10
+                }}>
                 <form
                     onSubmit={handleLogin}
                     style={{
@@ -47,7 +53,7 @@ const UserAdmin = () => {
                             border: '1px solid #54351a',
                             borderRadius: 3,
                             width: '200px',
-                            height: '21px'
+                            height: '30px'
                         }}
                     />
                     <input
@@ -62,7 +68,7 @@ const UserAdmin = () => {
                             border: '1px solid #54351a',
                             borderRadius: 3,
                             width: '200px',
-                            height: '21px'
+                            height: '30px'
                         }}
                     />
                     <button
@@ -73,7 +79,7 @@ const UserAdmin = () => {
                             fontFamily: 'Hagins-Caps',
                             margin: '12px',
                             width: '10%',
-                            height: 'auto',
+                            height: '21px',
                             border: '1px solid #eae3d7',
                             borderRadius: 3
                         }}
@@ -82,6 +88,7 @@ const UserAdmin = () => {
                     </button>
                 </form>
             </div>
+            <Footer />
         </div>
     )
 }
