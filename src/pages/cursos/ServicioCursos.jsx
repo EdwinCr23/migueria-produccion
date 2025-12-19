@@ -200,9 +200,68 @@ const ServicioCursos = () => {
                         </CardActions>
                     </Card>
                 </div>
+                <div
+                    style={{
+                        padding: 10
+                    }}>
+                    <Card
+                        sx={{
+                            width: 200,
+                            height: 350,
+                            background: '#eae3d7',
+                            borderRadius: 3,
+                            boxShadow: '2px 6px 15px #54351a',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between'
+                        }}>
+                        <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                height="140"
+                                image="https://www.elmiguerito.com/Recursos/Images/Hiopos.png"
+                                alt="Servicio-logo"
+                                sx={{
+                                    width: '100%',
+                                    padding: 'auto',
+                                    margin: 'auto',
+                                    objectFit: 'contain'
+                                }}
+                            />
+                        </CardActionArea>
+                        <CardContent>
+                            <Typography gutterBottom variant="h5"
+                                sx={{
+                                    textAlign: 'center',
+                                    color: '#54351a',
+                                    fontFamily: 'Hagins-Caps'
+                                }}>Hiopos</Typography>
+                            <Typography sx={{
+                                textAlign: 'center',
+                                color: '#54351a',
+                                fontFamily: 'Archer-Book-Pro'
+                            }}>Actualización del sistema actual</Typography>
+                        </CardContent>
+                        <CardActions>
+                            <Button size="small"
+                                sx={{
+                                    width: '90%',
+                                    padding: 'auto',
+                                    margin: 'auto',
+                                    border: '1px solid #54351a',
+                                    borderRadius: 3
+                                }}><Link style={{
+                                    textDecoration: 'none',
+                                    color: '#54351a',
+                                    fontFamily: 'hagins-Caps'
+                                }} to="#"
+                                    target='blank'>Realizar</Link></Button>
+                        </CardActions>
+                    </Card>
+                </div>
             </div>
             <Footer />
-        </div>
+        </div >
     )
 }
 
